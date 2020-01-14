@@ -10,6 +10,11 @@
             "StackName": "amplify-market-dev-231516",
             "StackId": "arn:aws:cloudformation:us-east-1:658710424301:stack/amplify-market-dev-231516/f9bdb580-3712-11ea-98d4-12f057d255e7",
             "AmplifyAppId": "d3ro4nweng7p2n"
+        },
+        "categories": {
+            "auth": {
+                "market1aae4b76": {}
+            }
         }
     }
 }
