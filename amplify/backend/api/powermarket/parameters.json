@@ -1,10 +1,10 @@
 {
-    "AppSyncApiName": "MarketGQL",
+    "AppSyncApiName": "powermarket",
     "DynamoDBBillingMode": "PAY_PER_REQUEST",
     "DynamoDBEnableServerSideEncryption": "false",
     "AuthCognitoUserPoolId": {
         "Fn::GetAtt": [
-            "authmarket1aae4b76",
+            "authpowermarketc0f2475b",
             "Outputs.UserPoolId"
         ]
     }

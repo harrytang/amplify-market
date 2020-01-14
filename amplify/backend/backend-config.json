@@ -1,13 +1,13 @@
 {
 	"auth": {
-		"market1aae4b76": {
+		"powermarketc0f2475b": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
 		}
 	},
 	"api": {
-		"MarketGQL": {
+		"powermarket": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
@@ -16,7 +16,7 @@
 					"defaultAuthentication": {
 						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
 						"userPoolConfig": {
-							"userPoolId": "authmarket1aae4b76"
+							"userPoolId": "authpowermarketc0f2475b"
 						}
 					}
 				}

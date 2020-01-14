@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "market1aae4b76_identitypool_1aae4b76",
+    "identityPoolName": "powermarketc0f2475b_identitypool_c0f2475b",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "market1aae4b76",
-    "userPoolName": "market1aae4b76_userpool_1aae4b76",
+    "resourceNameTruncated": "powermc0f2475b",
+    "userPoolName": "powermarketc0f2475b_userpool_c0f2475b",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "market1aae4b76_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "powermc0f2475b_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "market1aae4b76",
+    "resourceName": "powermarketc0f2475b",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
